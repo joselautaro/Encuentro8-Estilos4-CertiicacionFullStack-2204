@@ -1,0 +1,20 @@
+@import '../parciales/variables';
+@import '../extend/flex-extend';
+
+footer{
+    // background-color: rgb(166, 162, 162);
+    background-color: $color-de-fondo;
+    margin-top: 200px;
+    // display: flex;
+    // justify-content: space-around;
+    // flex-wrap: wrap;
+    @extend .flexible;
+    a{
+        // text-decoration: none;
+        text-decoration: $tipo-de-subrayado;
+        // color: white;
+        color: $color-letras;
+        padding: 10px;
+        margin: 5px;
+    }
+}

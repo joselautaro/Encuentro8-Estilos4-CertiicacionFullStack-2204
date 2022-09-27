@@ -1,0 +1,23 @@
+@import '../parciales/variables';
+@import '../extend/flex-extend';
+
+header{
+    // background-color: rgb(166, 162, 162);
+    background-color: $color-de-fondo;
+    top: 0;
+    nav{
+        // display: flex;
+        // justify-content: space-around;
+        // flex-wrap: wrap;
+        @extend .flexible;
+        a{
+            // font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-family: $tipo-de-letra;
+            // color: white;
+            color: $color-letras;
+            padding: 10px;
+            // text-decoration: none;
+            text-decoration: $tipo-de-subrayado;
+        }
+    }
+}
